@@ -12,13 +12,36 @@ struct ContentView: View {
         VStack {
             ZStack{
                 Rectangle()
-                    .frame(width: 100, height: 100)
+                    .frame(width: .infinity, height: 200)
+                    .cornerRadius(5)
+                    .foregroundColor(.white)
                 Text("안녕")
                     .bold()
                     .foregroundColor(.black)
                     .font(.system(size: 20))
             }
-            
+            HStack{
+                ZStack{
+                    Rectangle()
+                        .frame(width: 80, height: 30)
+                        .cornerRadius(5)
+                        .foregroundColor(.white)
+                    Text("Replay")
+                }
+                Spacer()
+                ZStack{
+                    Rectangle()
+                        .frame(width: 80, height: 30)
+                        .cornerRadius(5)
+                    Text("Save")
+                }
+                ZStack{
+                    Rectangle()
+                        .frame(width: 80, height: 30)
+                        .cornerRadius(5)
+                    Text("reGen")
+                }
+            }
         }
         .padding()
     }
