@@ -14,18 +14,19 @@ struct ContentView: View {
                 Rectangle()
                     .frame(width: .infinity, height: 200)
                     .cornerRadius(5)
-                    .foregroundColor(.white)
-                Text("안녕")
-                    .bold()
-                    .foregroundColor(.black)
-                    .font(.system(size: 20))
+                    .foregroundColor(.mainBox)
+                Text("Type your name here")
+                    .foregroundColor(.secondary)
+                    .font(.system(size: 15))
             }
+            .padding(.bottom, 5)
+            
             HStack{
                 ZStack{
                     Rectangle()
                         .frame(width: 80, height: 30)
                         .cornerRadius(5)
-                        .foregroundColor(.white)
+                        .foregroundColor(.accentColor)
                     Text("Replay")
                 }
                 Spacer()
@@ -33,13 +34,15 @@ struct ContentView: View {
                     Rectangle()
                         .frame(width: 80, height: 30)
                         .cornerRadius(5)
+                        .foregroundColor(.accentColor)
                     Text("Save")
                 }
                 ZStack{
                     Rectangle()
                         .frame(width: 80, height: 30)
                         .cornerRadius(5)
-                    Text("reGen")
+                        .foregroundColor(.accentColor)
+                    Text("ReGen")
                 }
             }
         }
