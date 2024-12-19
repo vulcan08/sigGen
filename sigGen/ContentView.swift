@@ -24,26 +24,39 @@ struct ContentView: View {
             HStack{
                 ZStack{
                     Rectangle()
-                        .frame(width: 80, height: 30)
-                        .cornerRadius(5)
                         .foregroundColor(.accentColor)
-                    Text("Replay")
+                    HStack{
+                        Image(systemName: "play.fill")
+                        Spacer()
+                        Text("Replay")
+                    }
+                    .padding(10)
                 }
+                .frame(width: 83, height: 30)
+                .cornerRadius(5)
                 Spacer()
                 ZStack{
                     Rectangle()
-                        .frame(width: 80, height: 30)
-                        .cornerRadius(5)
                         .foregroundColor(.accentColor)
-                    Text("Save")
+                    HStack{
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .padding(10)
                 }
+                .frame(width: 30, height: 30)
+                .cornerRadius(5)
                 ZStack{
                     Rectangle()
-                        .frame(width: 80, height: 30)
-                        .cornerRadius(5)
                         .foregroundColor(.accentColor)
-                    Text("ReGen")
+                    HStack{
+                        Image(systemName: "memories")
+                        Spacer()
+                        Text("ReGen")
+                    }
+                    .padding(10)
                 }
+                .frame(width: 85, height: 30)
+                .cornerRadius(5)
             }
         }
         .padding()
