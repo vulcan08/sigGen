@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B0712D2E2D1476BB005DEA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0712D142D1476BA005DEA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0712D1B2D1476BA005DEA76;
+			remoteInfo = sigGen;
+		};
+		B0712D382D1476BB005DEA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0712D142D1476BA005DEA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0712D1B2D1476BA005DEA76;
+			remoteInfo = sigGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0712D1C2D1476BA005DEA76 /* sigGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sigGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0712D2D2D1476BB005DEA76 /* sigGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sigGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0712D372D1476BB005DEA76 /* sigGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sigGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B0712D1E2D1476BA005DEA76 /* sigGen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sigGen;
+			sourceTree = "<group>";
+		};
+		B0712D302D1476BB005DEA76 /* sigGenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sigGenTests;
+			sourceTree = "<group>";
+		};
+		B0712D3A2D1476BB005DEA76 /* sigGenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sigGenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0712D192D1476BA005DEA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0712D2A2D1476BB005DEA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0712D342D1476BB005DEA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0712D132D1476BA005DEA76 = {
+			isa = PBXGroup;
+			children = (
+				B0712D1E2D1476BA005DEA76 /* sigGen */,
+				B0712D302D1476BB005DEA76 /* sigGenTests */,
+				B0712D3A2D1476BB005DEA76 /* sigGenUITests */,
+				B0712D1D2D1476BA005DEA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0712D1D2D1476BA005DEA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0712D1C2D1476BA005DEA76 /* sigGen.app */,
+				B0712D2D2D1476BB005DEA76 /* sigGenTests.xctest */,
+				B0712D372D1476BB005DEA76 /* sigGenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0712D1B2D1476BA005DEA76 /* sigGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0712D412D1476BB005DEA76 /* Build configuration list for PBXNativeTarget "sigGen" */;
+			buildPhases = (
+				B0712D182D1476BA005DEA76 /* Sources */,
+				B0712D192D1476BA005DEA76 /* Frameworks */,
+				B0712D1A2D1476BA005DEA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B0712D1E2D1476BA005DEA76 /* sigGen */,
+			);
+			name = sigGen;
+			packageProductDependencies = (
+			);
+			productName = sigGen;
+			productReference = B0712D1C2D1476BA005DEA76 /* sigGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0712D2C2D1476BB005DEA76 /* sigGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0712D442D1476BB005DEA76 /* Build configuration list for PBXNativeTarget "sigGenTests" */;
+			buildPhases = (
+				B0712D292D1476BB005DEA76 /* Sources */,
+				B0712D2A2D1476BB005DEA76 /* Frameworks */,
+				B0712D2B2D1476BB005DEA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0712D2F2D1476BB005DEA76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0712D302D1476BB005DEA76 /* sigGenTests */,
+			);
+			name = sigGenTests;
+			packageProductDependencies = (
+			);
+			productName = sigGenTests;
+			productReference = B0712D2D2D1476BB005DEA76 /* sigGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0712D362D1476BB005DEA76 /* sigGenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0712D472D1476BB005DEA76 /* Build configuration list for PBXNativeTarget "sigGenUITests" */;
+			buildPhases = (
+				B0712D332D1476BB005DEA76 /* Sources */,
+				B0712D342D1476BB005DEA76 /* Frameworks */,
+				B0712D352D1476BB005DEA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0712D392D1476BB005DEA76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0712D3A2D1476BB005DEA76 /* sigGenUITests */,
+			);
+			name = sigGenUITests;
+			packageProductDependencies = (
+			);
+			productName = sigGenUITests;
+			productReference = B0712D372D1476BB005DEA76 /* sigGenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0712D142D1476BA005DEA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B0712D1B2D1476BA005DEA76 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B0712D2C2D1476BB005DEA76 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B0712D1B2D1476BA005DEA76;
+					};
+					B0712D362D1476BB005DEA76 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B0712D1B2D1476BA005DEA76;
+					};
+				};
+			};
+			buildConfigurationList = B0712D172D1476BA005DEA76 /* Build configuration list for PBXProject "sigGen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0712D132D1476BA005DEA76;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B0712D1D2D1476BA005DEA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0712D1B2D1476BA005DEA76 /* sigGen */,
+				B0712D2C2D1476BB005DEA76 /* sigGenTests */,
+				B0712D362D1476BB005DEA76 /* sigGenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0712D1A2D1476BA005DEA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0712D2B2D1476BB005DEA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0712D352D1476BB005DEA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0712D182D1476BA005DEA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0712D292D1476BB005DEA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0712D332D1476BB005DEA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0712D2F2D1476BB005DEA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0712D1B2D1476BA005DEA76 /* sigGen */;
+			targetProxy = B0712D2E2D1476BB005DEA76 /* PBXContainerItemProxy */;
+		};
+		B0712D392D1476BB005DEA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0712D1B2D1476BA005DEA76 /* sigGen */;
+			targetProxy = B0712D382D1476BB005DEA76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0712D3F2D1476BB005DEA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0712D402D1476BB005DEA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B0712D422D1476BB005DEA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sigGen/sigGen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sigGen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vulcan.sigGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B0712D432D1476BB005DEA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sigGen/sigGen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sigGen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vulcan.sigGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B0712D452D1476BB005DEA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vulcan.sigGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sigGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sigGen";
+			};
+			name = Debug;
+		};
+		B0712D462D1476BB005DEA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vulcan.sigGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sigGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sigGen";
+			};
+			name = Release;
+		};
+		B0712D482D1476BB005DEA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vulcan.sigGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = sigGen;
+			};
+			name = Debug;
+		};
+		B0712D492D1476BB005DEA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vulcan.sigGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = sigGen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0712D172D1476BA005DEA76 /* Build configuration list for PBXProject "sigGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0712D3F2D1476BB005DEA76 /* Debug */,
+				B0712D402D1476BB005DEA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0712D412D1476BB005DEA76 /* Build configuration list for PBXNativeTarget "sigGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0712D422D1476BB005DEA76 /* Debug */,
+				B0712D432D1476BB005DEA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0712D442D1476BB005DEA76 /* Build configuration list for PBXNativeTarget "sigGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0712D452D1476BB005DEA76 /* Debug */,
+				B0712D462D1476BB005DEA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0712D472D1476BB005DEA76 /* Build configuration list for PBXNativeTarget "sigGenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0712D482D1476BB005DEA76 /* Debug */,
+				B0712D492D1476BB005DEA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0712D142D1476BA005DEA76 /* Project object */;
+}
