@@ -7,7 +7,11 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    @State private var name: String = ""
+    
     var body: some View {
         VStack {
             ZStack{
@@ -18,6 +22,13 @@ struct ContentView: View {
                 Text("Type your name here")
                     .foregroundColor(.secondary)
                     .font(.system(size: 15))
+                TextField("Type your name here", text: $name)
+                    // .padding(.bottom, 15)
+                    .multilineTextAlignment(.center)
+                    .background(.mainBox)
+                    .frame(width: 280, height: 40)
+                    .cornerRadius(7)
+                //이거 깔끔하게 못하냐
             }
             .padding(.bottom, 5)
             

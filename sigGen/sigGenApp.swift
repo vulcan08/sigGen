@@ -13,5 +13,6 @@ struct sigGenApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
     }
 }
