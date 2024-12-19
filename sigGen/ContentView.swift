@@ -61,7 +61,7 @@ struct ContentView: View {
                 
                 ZStack{
                     Button(action: {
-                        //NSSharingService.submenu(text: "\(name)")
+                        //NSSharingService.submenu(text: "\(name)").
                         // let) rft = readItemKeyChain(userId: self.id)
                         //print("name: \(name)")
                         // signIn(email: "\(id)", password: "\(password)")
